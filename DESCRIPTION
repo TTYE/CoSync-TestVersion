@@ -1,0 +1,19 @@
+Package: CoSync
+Title: Analyzing sychonization network
+Version: 0.0.1
+Authors@R: person("Ye", "Chen", email = "chenyewv@gmail.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+VignetteBuilder: knitr
+Imports:
+    RSEIS,
+    MSBVAR,
+    igraph,
+    WGCNA,
+    biomaRt,
+    topGO
+Depends:
+    R (>= 3.2.0)
+License: What license is it under?
+LazyData: true
+Maintainer: Ye Chen <chenyewv@gmail.com>
+RoxygenNote: 5.0.1
